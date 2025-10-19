@@ -1,7 +1,8 @@
 html {
 	--color-accent: oklch(65% 50% 0);
 	accent-color: var(--color-accent);
-
+    color-scheme: light dark;
+    margin-inline:auto;
 }
 
 body {
@@ -9,9 +10,10 @@ body {
 	   and use the OS’s UI font as the website font
 	 */
   font: 100%/1.5 system-ui;
-  display:grid
+  display:grid;
   max-width:100ch;
-  margin-inline:auto;
+
+
   padding: 50px;
 
 
@@ -49,11 +51,7 @@ a:hover {
 }
 
 
-.current {
-	border-bottom-width: 0.4em;
-	border-bottom-color:oklch(80% 3% 200);
-	padding-bottom: 0.25em;
-}
+
 
 .grid {
     display:grid;
